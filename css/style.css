@@ -1,0 +1,90 @@
+/*body{
+   padding: 0px;
+   margin: 0px;
+   width: 100%;
+   box-sizing: border-box;
+   display: block;
+}*/
+.container{
+   display: block;
+}
+div{
+   display: block;
+}
+.first-grid-container{
+   width: 1500px;
+   margin-left: 50px;
+   margin-top: 50px;
+   display: grid;
+   grid-template-columns: (1fr 1fr 1fr 1fr);
+   grid-template-rows:(auto auto auto);
+   gap: 40px 40px;
+   grid-template-areas:
+   "first first second"
+   "first first third"
+   "fourth fifth sixth";
+}
+.first-image{
+   grid-area: first;
+   width: 100%;
+}
+.second-image{
+   grid-area:second ;
+   width: 100%;
+}
+.third-image{
+   grid-area: third;
+   width: 100%;
+}
+.fourth-image{
+   grid-area: fourth;
+   width: 100%;
+}
+.fifth-image{
+   grid-area: fifth;
+}
+.second-grid-container{
+   width: 1700px;
+   
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 0px 0px;
+
+  grid-template-areas:
+    "seven eight nine ten"
+    "eleven twelve thirteen fourteen";
+    filter: brightness(45%);
+    background: black;
+}
+.seven{
+grid-area: seven;
+}
+.eight{
+   grid-area: eight;
+}
+.nine{
+   grid-area: nine;
+}
+.ten{
+   grid-area: ten;
+}
+.eleven{
+   grid-area: eleven;
+}
+.twelve{grid-area: twelve;
+
+}
+.thirteen{
+   grid-area: thirteen; 
+}
+.fourteen{
+   grid-area: fourteen;
+}
+
+
+
+
+
+
+    
