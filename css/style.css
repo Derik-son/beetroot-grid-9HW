@@ -55,7 +55,6 @@ div{
     "seven eight nine ten"
     "eleven twelve thirteen fourteen";
     filter: brightness(45%);
-    background: black;
 }
 .seven{
 grid-area: seven;
@@ -73,7 +72,6 @@ grid-area: seven;
    grid-area: eleven;
 }
 .twelve{grid-area: twelve;
-
 }
 .thirteen{
    grid-area: thirteen; 
@@ -81,6 +79,16 @@ grid-area: seven;
 .fourteen{
    grid-area: fourteen;
 }
+
+.eleven,
+.twelve,
+.thirteen,
+.fourteen{
+   position: absolute;
+   top: -5px;
+}
+
+
 
 
 
