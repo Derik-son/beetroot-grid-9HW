@@ -44,7 +44,8 @@ div{
    grid-area: fifth;
 }
 .second-grid-container{
-   width: 1600px;
+   max-width: 1200px;
+   min-width: 1200px;
    
   display: grid;
   grid-template-columns: repeat(4, auto);
@@ -56,6 +57,7 @@ div{
     "eleven twelve thirteen fourteen";
     filter: brightness(45%);
 }
+
 .seven{
 grid-area: seven;
 }
@@ -71,7 +73,8 @@ grid-area: seven;
 .eleven{
    grid-area: eleven;
 }
-.twelve{grid-area: twelve;
+.twelve{
+   grid-area: twelve;
 }
 .thirteen{
    grid-area: thirteen; 
@@ -91,6 +94,38 @@ grid-area: seven;
    position: relative;
    top: -4px;
 }
+.seven:hover{
+   filter:brightness(100%);
+}
+.eight:hover{
+   filter:brightness(100%);
+}
+.nine:hover{
+   filter:brightness(100%);
+}
+.ten:hover{
+   filter:brightness(100%);
+}
+.eleven:hover{
+   filter:brightness(100%);
+}
+.twelve:hover{
+   filter:brightness(100%);
+}
+.thirteen:hover{
+   filter:brightness(100%);
+}
+.fourteen:hover{
+   cursor: pointer;
+   
+}
+.button{
+   font-size: 30px;
+   display: grid;
+   width: auto;
+   height: 20px;
+}
+
 
 
 
